@@ -1,36 +1,64 @@
-$red : #DB4549;
-$background: #DBDCD6;
-$primary:#2E3853;
-$secondary:#3E6A91;
-$light:#A3C9D3;
+$red: #db4549;
+$background: #dbdcd6;
+$primary: #2e3853;
+$secondary: #3e6a91;
+$light: #a3c9d3;
 
-.header{
-   padding: 1rem 0 3rem;
+.header {
+  padding: 1em 0 1rem;
 }
 
-.title{
-   color: $primary;
-   font-size: 3rem;
-   text-decoration: none;
+.name {
+  color: $secondary;
+  font-size: 1.3rem;
+  text-decoration: none;
+  position: absolute;
+  top: 1.5rem;
+  left: 52rem;
 }
 
-.nav-list{
-   display: flex;
-   list-style-type: none;
-   margin: 0;
+.title {
+  color: $secondary;
+  font-size: 1.1rem;
+  text-decoration: none;
+  position: absolute;
+  top: 3rem;
+  left: 52rem;
 }
 
-.nav-items{
-   color: $secondary; 
-   font-size: 0.9rem;
-   margin-right: 1.3rem;
-   text-decoration: none;
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
 }
 
-.nav-items:hover{
-   color: $red;
+.nav-items {
+  color: $secondary;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  text-decoration: none;
 }
 
-.active-nav-item{
-   color: black;
+.nav-items:hover {
+  color: $red;
+}
+
+.active-nav-item {
+  color: $primary;
+  font-size: 1.6rem;
+}
+
+.nav-div {
+  background-color: $secondary;
+  height: 1px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.img {
+  width: 5rem;
+  height: auto;
+  position: absolute;
+  top: 1.5rem;
+  left: 7rem;
 }

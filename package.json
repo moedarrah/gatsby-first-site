@@ -14,10 +14,18 @@
   },
   "dependencies": {
     "gatsby": "^2.13.73",
+    "gatsby-image": "^2.2.14",
     "gatsby-plugin-sass": "^2.1.12",
+    "gatsby-plugin-sharp": "^2.2.18",
+    "gatsby-plugin-typography": "^2.3.5",
+    "gatsby-source-filesystem": "^2.1.18",
+    "gatsby-transformer-remark": "^2.6.19",
+    "gatsby-transformer-sharp": "^2.2.12",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

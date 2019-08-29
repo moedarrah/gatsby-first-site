@@ -1,15 +1,35 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql  } from "gatsby"
 import HeaderStyles from "./header.module.scss"
+import Logo from "../image/logo.png"
 
 const Header = () => {
+  const data = useStaticQuery(graphql`
+  query {
+    site{
+      siteMetadata{
+        author
+        title
+      }
+    }
+
+}
+  `)
   return (
     <header className={HeaderStyles.header}>
       <h1>
-        <Link to="/" className={HeaderStyles.title}>
-          My first Gatsby site
+        <Link to="/" className={HeaderStyles.name}>
+          {data.site.siteMetadata.author}
         </Link>
       </h1>
+      <h2>
+        <Link to="/" className={HeaderStyles.title}>
+          {data.site.siteMetadata.title}
+        </Link>
+      </h2>
+      <Link to="/">
+      <img  className={HeaderStyles.img}src={Logo} alt="Logo" />
+      </Link>
       <nav>
         <ul className={HeaderStyles.navList}>
           <li>
@@ -19,17 +39,12 @@ const Header = () => {
           </li>
           <li>
             <Link to="/blog" className={HeaderStyles.navItems} activeClassName={HeaderStyles.activeNavItem}>
-              Blog
+            Projects
             </Link>
           </li>
           <li>
-            <Link to="/home" className={HeaderStyles.navItems} activeClassName={HeaderStyles.activeNavItem}>
+            <Link to="/contact" className={HeaderStyles.navItems} activeClassName={HeaderStyles.activeNavItem}>
               Contact
-            </Link>
-          </li>
-          <li>
-            <Link to="/about-css-modules" className={HeaderStyles.navItems} activeClassName={HeaderStyles.activeNavItem}>
-              About us
             </Link>
           </li>
           <li>
@@ -39,6 +54,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <div className={HeaderStyles.navDiv}></div>
     </header>
   )
 }
