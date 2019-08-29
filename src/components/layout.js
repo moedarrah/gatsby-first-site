@@ -4,6 +4,8 @@ import Footer from "../components/footer"
 import "../styles/index.scss"
 import LayoutStyles from "./layout.module.scss"
 
+
+
 const Layout = props => {
   return (
     <div className={LayoutStyles.container}>
