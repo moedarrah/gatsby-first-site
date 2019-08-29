@@ -1,40 +1,12 @@
-import React from "react";
-import { navigateTo } from "gatsby-link";
+import React from 'react'
+import Layout from "../components/layout"
 
-function encode(data) {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-}
-
-export default class Contact extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
-
-  handleSubmit = e => {
-    e.preventDefault();
-    const form = e.target;
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": form.getAttribute("name"),
-        ...this.state
-      })
-    })
-      .then(() => navigateTo(form.getAttribute("action")))
-      .catch(error => alert(error));
-  };
-
-  render() {
-    return (
-      <div>
+const Contact = () => (
+  <Layout>
+    <h1>Hi people</h1>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+    <div>
         <h1>Contact</h1>
         <form
           name="contact"
@@ -75,6 +47,7 @@ export default class Contact extends React.Component {
           </p>
         </form>
       </div>
-    );
-  }
-}
+  </Layout>
+)
+
+export default Contact
