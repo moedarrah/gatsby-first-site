@@ -13,8 +13,7 @@ const Contact = () => (
       data-netlify-honeypot="bot-field"
     >
       <input name="bot-field" placeholder="Your Name" type="text" />
-      <input name="email" placeholder="name@name.com" type="email" />
-      <textarea name="text" />
+     
       <button>Send</button>
     </form>
   </Layout>
