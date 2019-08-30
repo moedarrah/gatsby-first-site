@@ -26,27 +26,12 @@ img{
   
 }
 
-// .name{
-//   color: $primary;
-//   font-size: 3rem;
-//   text-decoration: none;
-//   position: absolute;
-//   top: 2rem;
-//   left: 15rem;
-// }
-// .title{
-//   color: $primary;
-//   font-size: 2rem;
-//   text-decoration: none;
-//   position: absolute;
-//   top: 5rem;
-//   left: 15rem;
-// }
 
 footer{
   text-align: center;
   color: $secondary;
-  z-index: 1;
+  
+  
 }
 
 .par{
@@ -104,4 +89,43 @@ footer{
   
 }
 
+.chart{
+  display: flex;
+  width: 300px;
+  position: relative;
+  top: 150px;
+  right: 80px;
+  
+  // align-items: center;
+  // justify-content: center;
+ 
 
+}
+
+.pie{
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.radar{
+  position: relative;
+  top: 10rem;
+  left: 100px;
+  padding-bottom: 200px;
+  
+  
+}
+
+.radar>canvas{
+width: 600px;
+
+
+}
+
+.personal{
+  color: $secondary;
+  position: relative;
+  top: 15rem;
+  z-index: 1;
+}
