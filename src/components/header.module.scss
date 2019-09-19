@@ -1,64 +1,10 @@
-$red: #db4549;
-$background: #dbdcd6;
-$primary: #2e3853;
-$secondary: #3e6a91;
-$light: #a3c9d3;
+$green: #BFF205;
+$light-green: #BFF205;
+$background-light: #F2F2F2;
+$background-dark: #333140;
+$primary-light: #333140;
+$primary-dark: #F2F2F2;
+$secondary: #B4B7BF;
 
-.header {
-  padding: 1em 0 1rem;
-}
 
-.name {
-  color: $secondary;
-  font-size: 1.3rem;
-  text-decoration: none;
-  position: absolute;
-  top: 1.5rem;
-  left: 52rem;
-}
 
-.title {
-  color: $secondary;
-  font-size: 1.1rem;
-  text-decoration: none;
-  position: absolute;
-  top: 3rem;
-  left: 52rem;
-}
-
-.nav-list {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-}
-
-.nav-items {
-  color: $secondary;
-  font-size: 1.5rem;
-  margin-right: 1.5rem;
-  text-decoration: none;
-}
-
-.nav-items:hover {
-  color: $red;
-}
-
-.active-nav-item {
-  color: $primary;
-  font-size: 1.6rem;
-}
-
-.nav-div {
-  background-color: $secondary;
-  height: 1px;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.img {
-  width: 5rem;
-  height: auto;
-  position: absolute;
-  top: 1.5rem;
-  left: 7rem;
-}

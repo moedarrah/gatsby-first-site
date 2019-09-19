@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Layout from "../components/layout";
-import Chart from "../components/Chart";
-import Radar from "../components/Radar"
+import Chart from "../components/chart/Chart";
+import Radar from "../components/chart/Radar"
 
 
 class about extends Component {
