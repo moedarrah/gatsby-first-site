@@ -1,35 +1,110 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
-$red : #DB4549;
-$background: #DBDCD6;
-$primary:#2E3853;
-$secondary:#3E6A91;
-$light:#A3C9D3;
+
+
+/* Dark mode colors */
+$background-dark: #0D0D0C;
+$font-large-dark: #F2BE5C;
+$font-small-dark:#BFA575;
+
+/* Light mode colors */
+$background-light: #E4EAF2;
+$font-large-light: #171921;
+$font-small-light: #4F6C73;
+
+$red: #D92938;
+
+
+
 
 
   .light-mode {
-    background-color: $secondary;
-    color: #333;
+    background-color: $background-light;
+    color: $font-large-light;
     transition: background-color 0.25s ease-out;
 
     p{
-      color: #DB4549;
+      color: $font-small-light;
     }
+
+    .toolbar_navigation-items{
+      ul{
+        a{
+
+          color: $font-large-light;
+        }
+      }
+    }
+
+    header{
+        .toolbar__logo {
+              margin-left: 1rem;
+              a{
+              color: $font-large-light;
+              font-size: 2rem;
+              text-decoration: none;
+          
+              }
+              
+          }
+          
+        }
+        
+       nav{
+
+         .toolbar__toggle-button{
+           color: $font-large-light;
+         }
+       }
+
+        
+        
+
   }
+  
+
+
+
+  
+  .dark-mode {
+    background-color: $background-dark;
+    color: $font-large-dark;
+    transition: background-color 0.25s ease-out;
+
+    p{
+      color: $font-small-dark;
+    }
+
+    .toolbar_navigation-items{
+      ul{
+        a{
+
+          color: $font-large-dark;
+        }
+
+        }
+      }
+
+      header{
+        .toolbar__logo {
+              margin-left: 1rem;
+              a{
+              color: $font-large-dark;
+              font-size: 2rem;
+              text-decoration: none;
+          
+              }
+              
+          }
+      
+
+    }
+    }
   
   // .light-mode nav {
   //   transition: background-color 0.25s ease-out;
   // }
   
-  .dark-mode {
-    background-color: #1a1919;
-    color: #999;
-    transition: background-color 0.25s ease-out;
-
-    p{
-      color: aqua;
-    }
-  }
   
   
   .toggle {
@@ -72,7 +147,7 @@ $light:#A3C9D3;
     left: 2px;
     background: #fff;
     opacity: 0.9;
-    background-color: cyan;
+    background-color: $red;
   }
   
   .toggle-container {
@@ -110,3 +185,8 @@ $light:#A3C9D3;
   h1 {
     margin: 0;
   }
+
+
+
+
+  
