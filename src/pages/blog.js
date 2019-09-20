@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { useStaticQuery, graphql } from "gatsby"
 
+
 export default function blog() {
   const data = useStaticQuery(graphql`
     query {

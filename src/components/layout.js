@@ -3,11 +3,15 @@ import Navbar from "../components/navbar/Navbar"
 import SideDrawer from "../components/SideDrawer/SideDrawer"
 import Backdrop from "../components/Backdrop/Backdrop"
 import "../styles/index.scss"
+import "../components/darkMode/DarkMode.scss"
+import DarkMode from "../components/darkMode/DarkMode"
+
 
 
 
 
 class Layout extends Component {
+  
   state = {
     sideDrawerOpen: false,
   }
@@ -25,20 +29,23 @@ class Layout extends Component {
   render() {
     let backdrop
     
+    
 
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />
       
     }
 
+    
     return (
-      <div style={{height: '100%'}}>
-          <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
-          <SideDrawer show={this.state.sideDrawerOpen}/>
-          {backdrop}
-          {this.props.children}
-        </div>
-        
+      <DarkMode>
+      <div>
+        <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
+        <SideDrawer show={this.state.sideDrawerOpen}/>
+        {backdrop}
+      </div>
+      {this.props.children}
+      </DarkMode>
       
     )
   }

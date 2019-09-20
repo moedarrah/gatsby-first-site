@@ -2,19 +2,19 @@ import React from 'react'
 import { Link } from 'gatsby'
 import "./Navbar.scss"
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton"
-import DarkMode from "../darkMode/DarkMode"
 
-const navbar = props => (
-    <header className="toolbar">
+
+
+
+const navbar = props => {
+  return(
+    <header>
       <nav className="toolbar__navigation">
         <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler} />
         </div>
-        <div className="toolbar__toggle-button">
-        <DarkMode />
-        </div>
         <div className="toolbar__logo">
-          <Link to="/">THE LOGO</Link>
+          <Link to="/">FrontEndare</Link>
         </div>
         <div className="spacer" />
         <div className="toolbar_navigation-items">
@@ -29,10 +29,11 @@ const navbar = props => (
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
-        </div>
+        </div> 
       </nav>
     </header>
   )
+}
   
   export default navbar
 

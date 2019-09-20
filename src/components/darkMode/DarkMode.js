@@ -1,7 +1,13 @@
 import React from 'react'
-import "./DarkMode.scss"
+import "../navbar/Navbar.scss"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
 
-const DarkMode = () => {
+
+
+
+const DarkMode = props => {
+
   const [darkMode, setDarkMode] = React.useState(getInitialMode());
   React.useEffect(() => {
     localStorage.setItem("dark", JSON.stringify(darkMode));
@@ -30,11 +36,12 @@ const DarkMode = () => {
     return window.matchMedia("(prefers-color-scheme: dark)").matches;
   }
 
-  return (
-    <div className={darkMode ? "dark-mode" : "light-mode"}>
-      <nav>
+  return(
+        <div className={darkMode ? "dark-mode" : "light-mode"}>
+        
+      <div>
         <div className="toggle-container">
-          <span style={{ color: darkMode ? "grey" : "yellow" }}>☀︎</span>
+          <span style={{ color: darkMode ? "grey" : "yellow" }}><FontAwesomeIcon icon={faSun} /></span>
           <span className="toggle">
             <input
               checked={darkMode}
@@ -45,17 +52,18 @@ const DarkMode = () => {
             />
             <label htmlFor="checkbox" />
           </span>
-          <span style={{ color: darkMode ? "slateblue" : "grey" }}>☾</span>
-          {/* <button onClick={() => setDarkMode(prevMode => !prevMode)}>
-          Toggle
-        </button> */}
+          <span style={{ color: darkMode ? "slateblue" : "grey" }}><FontAwesomeIcon icon={faMoon} /></span>
         </div>
-      </nav>
-
+      </div>
+      <main className={darkMode ? "dark-mode" : "light-mode"}>
+        
+        {props.children}
+        
+         
+      </main>
     </div>
-  );
+  )
 }
-
-export default DarkMode
-
+  
+  export default DarkMode
 
