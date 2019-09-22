@@ -4,12 +4,12 @@
 
 /* Dark mode colors */
 $background-dark: #0D0D0C;
-$font-large-dark: #F2BE5C;
-$font-small-dark:#BFA575;
+$font-large-dark: #E4EAF2;
+$font-small-dark:#4F6C73;
 
 /* Light mode colors */
 $background-light: #E4EAF2;
-$font-large-light: #171921;
+$font-large-light: #0D0D0C;
 $font-small-light: #4F6C73;
 
 $red: #D92938;
@@ -169,24 +169,19 @@ $red: #D92938;
     margin-top: 5px;
   }
   
-  p{
-    color: black;
-  }
-
-  main {
-    padding: 0.5em;
-    margin: 0 auto;
-    // max-width: 600px;
-    font-size: 1.2rem;
-    line-height: 1.1;
-    height: 100vh;
-  }
   
-  h1 {
-    margin: 0;
+
+  
+  
+  
+
+
+
+  .toggle-container{
+    position: absolute;
+    top: 40px;
+    left: 87.5%;
+    
   }
-
-
-
 
   

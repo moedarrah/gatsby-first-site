@@ -39,7 +39,7 @@ const DarkMode = props => {
   return(
         <div className={darkMode ? "dark-mode" : "light-mode"}>
         
-      <div>
+      
         <div className="toggle-container">
           <span style={{ color: darkMode ? "grey" : "yellow" }}><FontAwesomeIcon icon={faSun} /></span>
           <span className="toggle">
@@ -54,7 +54,7 @@ const DarkMode = props => {
           </span>
           <span style={{ color: darkMode ? "slateblue" : "grey" }}><FontAwesomeIcon icon={faMoon} /></span>
         </div>
-      </div>
+      
       <main className={darkMode ? "dark-mode" : "light-mode"}>
         
         {props.children}
