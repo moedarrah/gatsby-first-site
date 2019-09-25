@@ -43,33 +43,29 @@ export default function Contact() {
     >
       
       <input type="hidden" name="form-name" value="contact" />
-      
-        <label>
-          Don’t fill this out: <input name="bot-field" onChange={handleChange} />
-        </label>
-      
       <p>
         <label>
-          Name:
+          
           <br />
-          <input type="text" name="name" onChange={handleChange} required/>
+          <input type="text" name="name" onChange={handleChange} required placeholder="Name:"/>
         </label>
       </p>
       <p>
         <label>
-          Email:
+          
           <br />
-          <input type="email" name="email" onChange={handleChange} required/>
+          <input type="email" name="email" onChange={handleChange} required placeholder="Email:"/>
         </label>
       </p>
       <p>
         <label>
-          Message:
           <br />
-          <textarea name="message" onChange={handleChange} required/>
+          <textarea name="message" onChange={handleChange} required placeholder="Message:"/>
         </label>
       </p>
-      
+      <label>
+        <input name="bot-field" onChange={handleChange} placeholder="Don't fill this out if your a human:"/>
+        </label>
       <p>
         <button type="submit">Send</button>
       </p>
