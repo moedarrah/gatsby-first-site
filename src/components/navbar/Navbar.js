@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import "./Navbar.scss"
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton"
 
@@ -15,19 +14,22 @@ const navbar = props => {
         <DrawerToggleButton click={props.drawerClickHandler} />
         </div>
         <div className="toolbar__logo">
-          <Link to="/">Front<span className="logoSpan" >E</span>ndare</Link>
+          <a href="#home">Front<span className="logoSpan" >E</span>ndare</a>
         </div>
         <div className="spacer" />
         <div className="toolbar_navigation-items">
           <ul>
             <li>
-              <Link to="/" activeClassName="active">Home</Link>
+              <a href="#home" activeClassName="active">Home</a>
             </li>
             <li>
-              <Link to="/blog" activeClassName="active">Projects</Link>
+              <a href="#about" activeClassName="active">About</a>
             </li>
             <li>
-              <Link to="/contact" activeClassName="active">Contact</Link>
+              <a  href="#projects" activeClassName="active">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" activeClassName="active">Contact</a>
             </li>
           </ul>
         </div> 

@@ -1,13 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faPhone,
   faFighterJet,
   faMobileAlt,
   faRulerCombined,
-  faQuestion
+  faQuestion,
 } from "@fortawesome/free-solid-svg-icons"
 import { faHeart } from "@fortawesome/free-regular-svg-icons"
 import Chart from "../components/Chart"
@@ -17,7 +16,7 @@ var ReactRotatingText = require("react-rotating-text")
 const myIndex = () => {
   return (
     <Layout>
-      <div className="hero-image">
+      <div className="hero-image" id="home">
         <div className="hero-text1">
           <h1>
             Mohammed Darrah a{" "}
@@ -37,11 +36,11 @@ const myIndex = () => {
             <span className="logoSpan"> Portfolio</span>
           </h2>
         </span>
-        <Link to="/contact" className="callMe">
+        <a href="#contact" className="callMe">
           Contact me <FontAwesomeIcon icon={faPhone} />
-        </Link>
+        </a>
       </div>
-      <h1 className="about-h1">My Main Focus</h1>
+      <h1 className="about-h1" id="about">My Main Focus</h1>
       <ul className="icons-ul">
         <li className="icons-li">
           <div className="icon">
@@ -69,21 +68,304 @@ const myIndex = () => {
         </li>
       </ul>
       <ul className="about-list">
-      
-        <li><p className="about-p1">Hi! My name is <span>Mohammed Darrah</span> and am a front-end student at Nackademin. Please take a look around!</p></li>
+        <li>
+          <p className="about-p1">
+            Hi! My name is <span>Mohammed Darrah</span> and am a front-end
+            student at Nackademin. Please take a look around!
+          </p>
+        </li>
         <li>
           <p className="about-p">
             Finding the problem and trying to fix it in a smart way has always
             been my passion. I have a bachelor's degree in interior architect
             and I had worked in this field in my home town Syria and in Sweden.
-            Right now i am studying Front-End development at ,<span>Nackademin Stockholm</span>.
+            Right now i am studying Front-End development at ,
+            <span>Nackademin Stockholm</span>.
           </p>
         </li>
-        
       </ul>
-      <h1 className="about-h1">So...Where Am I<FontAwesomeIcon icon={faQuestion} /></h1>   
-     
+      <h1 className="about-h1">
+        So...Where Am I<FontAwesomeIcon icon={faQuestion} />
+      </h1>
+
       <Chart />
+
+      <h1 className="about-h1" id="projects">
+        Projects
+      </h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+        eos provident exercitationem autem molestias odio cupiditate
+        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+        repudiandae quos, vitae harum voluptas aut!
+      </p>
+      <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+      ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+      soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+      quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+      blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+      officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+      cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+      perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+      eos provident exercitationem autem molestias odio cupiditate
+      perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+      repudiandae quos, vitae harum voluptas aut!
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+      ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+      soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+      quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+      blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+      officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+      cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+      perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+      eos provident exercitationem autem molestias odio cupiditate
+      perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+      repudiandae quos, vitae harum voluptas aut!
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+      ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+      soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+      quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+      blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+      officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+      cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+      perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+      eos provident exercitationem autem molestias odio cupiditate
+      perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+      repudiandae quos, vitae harum voluptas aut!
+    </p> <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+    ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+    soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+    quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+    blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+    officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+    cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+    perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+    eos provident exercitationem autem molestias odio cupiditate
+    perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+    repudiandae quos, vitae harum voluptas aut!
+  </p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+    ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+    soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+    quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+    blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+    officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+    cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+    perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+    eos provident exercitationem autem molestias odio cupiditate
+    perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+    repudiandae quos, vitae harum voluptas aut!
+  </p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+    ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+    soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+    quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+    blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+    officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+    cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+    perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+    eos provident exercitationem autem molestias odio cupiditate
+    perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+    repudiandae quos, vitae harum voluptas aut!
+  </p> <p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+  ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+  soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+  quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+  blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+  officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+  cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+  perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+  eos provident exercitationem autem molestias odio cupiditate
+  perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+  repudiandae quos, vitae harum voluptas aut!
+</p>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+  ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+  soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+  quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+  blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+  officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+  cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+  perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+  eos provident exercitationem autem molestias odio cupiditate
+  perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+  repudiandae quos, vitae harum voluptas aut!
+</p>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+  ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+  soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+  quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+  blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+  officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+  cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+  perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+  eos provident exercitationem autem molestias odio cupiditate
+  perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+  repudiandae quos, vitae harum voluptas aut!
+</p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+        eos provident exercitationem autem molestias odio cupiditate
+        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+        repudiandae quos, vitae harum voluptas aut!
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+        eos provident exercitationem autem molestias odio cupiditate
+        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+        repudiandae quos, vitae harum voluptas aut!
+      </p>
+      <h1 className="about-h1" id="contact">
+        Contact
+      </h1>
+      <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+      ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+      soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+      quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+      blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+      officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+      cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+      perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+      eos provident exercitationem autem molestias odio cupiditate
+      perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+      repudiandae quos, vitae harum voluptas aut!
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+      ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+      soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+      quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+      blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+      officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+      cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+      perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+      eos provident exercitationem autem molestias odio cupiditate
+      perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+      repudiandae quos, vitae harum voluptas aut!
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+      ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+      soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+      quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+      blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+      officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+      cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+      perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+      eos provident exercitationem autem molestias odio cupiditate
+      perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+      repudiandae quos, vitae harum voluptas aut!
+    </p>
+    <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+    ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+    soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+    quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+    blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+    officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+    cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+    perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+    eos provident exercitationem autem molestias odio cupiditate
+    perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+    repudiandae quos, vitae harum voluptas aut!
+  </p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+    ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+    soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+    quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+    blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+    officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+    cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+    perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+    eos provident exercitationem autem molestias odio cupiditate
+    perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+    repudiandae quos, vitae harum voluptas aut!
+  </p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+    ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+    soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+    quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+    blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+    officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+    cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+    perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+    eos provident exercitationem autem molestias odio cupiditate
+    perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+    repudiandae quos, vitae harum voluptas aut!
+  </p> <p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+  ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+  soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+  quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+  blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+  officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+  cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+  perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+  eos provident exercitationem autem molestias odio cupiditate
+  perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+  repudiandae quos, vitae harum voluptas aut!
+</p>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+  ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+  soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+  quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+  blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+  officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+  cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+  perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+  eos provident exercitationem autem molestias odio cupiditate
+  perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+  repudiandae quos, vitae harum voluptas aut!
+</p>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
+  ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
+  soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
+  quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
+  blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
+  officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
+  cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
+  perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
+  eos provident exercitationem autem molestias odio cupiditate
+  perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
+  repudiandae quos, vitae harum voluptas aut!
+</p>
     </Layout>
   )
 }
