@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 import { faHeart } from "@fortawesome/free-regular-svg-icons"
 import Chart from "../components/Chart"
+import Form from "../components/form"
 
 var ReactRotatingText = require("react-rotating-text")
 
@@ -127,21 +128,7 @@ const myIndex = () => {
         Contact
       </h1>
      
-<form method="POST" data-netlify="true" name="contact">
-  <p>
-    <label>Name: <input type="hidden" name="form-name" value="contact"/></label>
-  </p>
-  <p>
-    <label>Email: <input type="hidden" name="form-email" value="contact"/></label>
-  </p>
-  <p>
-    <label>Message: <textarea type="hidden" name="contact" ></textarea></label>
-  </p>
-  <div data-netlify-recaptcha="true"></div>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+              <Form/>
 
     </Layout>
   )
