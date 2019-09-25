@@ -87,11 +87,11 @@ const myIndex = () => {
           </p>
         </li>
       </ul>
-      <h1 className="about-h1">
+      <h1 className="whereAm">
         So...Where Am I<FontAwesomeIcon icon={faQuestion} />
       </h1>
       <Chart />
-      <h1 className="about-h1" id="projects">
+      <h1 className="projects" id="projects">
         Projects
       </h1>
       <ul className="iframes">
