@@ -20,16 +20,16 @@ const navbar = props => {
         <div className="toolbar_navigation-items">
           <ul>
             <li>
-              <a href="#home" activeClassName="active">Home</a>
+              <a href="#home" activeclassname="active">Home</a>
             </li>
             <li>
-              <a href="#about" activeClassName="active">About</a>
+              <a href="#about" activeclassname="active">About</a>
             </li>
             <li>
-              <a  href="#projects" activeClassName="active">Projects</a>
+              <a  href="#projects" activeclassname="active">Projects</a>
             </li>
             <li>
-              <a href="#contact" activeClassName="active">Contact</a>
+              <a href="#contact" activeclassname="active">Contact</a>
             </li>
           </ul>
         </div> 

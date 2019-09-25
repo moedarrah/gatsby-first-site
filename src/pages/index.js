@@ -83,7 +83,7 @@ const myIndex = () => {
             been my passion. I have a bachelor's degree in interior architect
             and I had worked in this field in my home town Syria and in Sweden.
             Right now i am studying Front-End development at ,
-            <span>Nackademin Stockholm</span>.
+            <span> Nackademin Stockholm.</span>
           </p>
         </li>
       </ul>
@@ -97,29 +97,29 @@ const myIndex = () => {
       <ul className="iframes">
         <li>
           <p className="project-p">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-            mollitia autem nostrum hic reprehenderit voluptatum ipsa consequatur
-            impedit animi reiciendis?
+            <span>Miss Green</span> is an eCommerce project using vanilla
+            javascript and bootstrap the main focus is to use local storage.
+            <span><a href="https://mmdarrah.github.io/eCommerce/index.html" target="_blank"> Go to the project.</a></span>
           </p>
         </li>
         <li>
           <iframe
             src="https://mmdarrah.github.io/eCommerce/index.html"
-            frameborder="0"
+            frameBorder="0"
             title="1"
           ></iframe>
         </li>
         <li>
-          <p className="project-p">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-            mollitia autem nostrum hic reprehenderit voluptatum ipsa consequatur
-            impedit animi reiciendis?
-          </p>
+        <p className="project-p">
+        <span>Hire A Hero</span> is a project using vanilla
+        javascript and an external json file the main focus is to import the items from an external json file
+        <span><a href="https://mmdarrah.github.io/SuperHero4rent/" target="_blank"> Go to the project.</a></span>
+      </p>
         </li>
         <li>
           <iframe
             src="https://mmdarrah.github.io/SuperHero4rent/"
-            frameborder="0"
+            frameBorder="0"
             title="2"
           ></iframe>
         </li>
@@ -127,9 +127,8 @@ const myIndex = () => {
       <h1 className="about-h1" id="contact">
         Contact
       </h1>
-     <h3 className="form-head">Have a question or want to work together?</h3>
-              <Form/>
-
+      <h3 className="form-head">Have a question or want to work together?</h3>
+      <Form />
     </Layout>
   )
 }
