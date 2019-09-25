@@ -129,13 +129,13 @@ const myIndex = () => {
       
 <form method="POST" data-netlify="true">
   <p>
-    <label>Name: <input type="text" name="name" /></label>
+    <label>Name: <input type="hidden" name="form-name" value="name-of-form"/></label>
   </p>
   <p>
-    <label>Email: <input type="email" name="email" /></label>
+    <label>Email: <input type="hidden" name="form-email" value="email-of-form"/></label>
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label>Message: <textarea type="hidden" name="form-message" value="message-of-form"></textarea></label>
   </p>
   <div data-netlify-recaptcha="true"></div>
   <p>
