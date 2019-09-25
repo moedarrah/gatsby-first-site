@@ -389,14 +389,45 @@ iframe{
       margin-bottom: 30px;
     }
 
-    .hero-image2 {
+    .hero-thanks {
       height: 100vh;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
         url("../../image/hero-image.jpg");
+
+        .thanks-text-dark{
+          color: $font-large-dark;
+          padding-top: 20px;
+        }
+         
+
+        .thanks-text-red{
+          color: $red;
+        }
+        .back-link{
+          padding: 20px 0;
+          a{
+            
+            text-decoration: none;
+            color: $font-large-dark;
+            
+          }
+        }
+    }
+
+    .thanks-container{
+      position: relative;
+      top: 200px;
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      border: $red solid 1px;
+      border-radius: 20px;
+      text-align: center;
+      background: #0d0d0c;
     }
 
     

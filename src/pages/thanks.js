@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {faArrowLeft} from "@fortawesome/free-solid-svg-icons"
 
 
 
@@ -7,14 +9,17 @@ import React from 'react'
 
 export default () => (
   <div>
-  <div className="hero-image2">
-  <div className="hero-text3">
-    <h1>Thank you for your message</h1>
+  <div className="hero-thanks">
+  <div className="thanks-container">
+  <div className="thanks-text-dark">
+    <h1>Thank you for your message.</h1>
   </div>
-  <span className="hero-text4">
+  <div className="thanks-text-dark">
     <h2>I will contact you as soon as possible.</h2>
-  </span>
-  <div><a href="../">Go back to homepage</a></div>
+  </div>
+  <div className="back-link"><a href="../"><FontAwesomeIcon icon={faArrowLeft} /> <FontAwesomeIcon icon={faArrowLeft} /> Go back to 
+ <span> Homepage </span></a></div>
 </div>
+  </div>
   </div>
 )
