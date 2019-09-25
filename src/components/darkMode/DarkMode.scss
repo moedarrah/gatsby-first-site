@@ -430,6 +430,38 @@ iframe{
       background: #0d0d0c;
     }
 
+    .form{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 100px;
+
+      input {
+        justify-items: center;
+        border: none;
+        height: 30px;
+        width: 600px;
+        margin-bottom: 5px; 
+      }
+      textarea{
+        justify-items: center;
+        border: none;
+        height: 30px;
+        width: 600px;
+        margin-bottom: 5px; 
+      }
+
+      button{
+        justify-items: center;
+        border: none;
+        height: 30px;
+        width: 600px;
+        margin-bottom: 5px;
+      }
+
+
+    }
+
     
 
 
