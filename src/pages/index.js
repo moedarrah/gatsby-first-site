@@ -126,123 +126,19 @@ const myIndex = () => {
       <h1 className="about-h1" id="contact">
         Contact
       </h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
-        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
-        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
-        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
-        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
-        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
-        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
-        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
-        eos provident exercitationem autem molestias odio cupiditate
-        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
-        repudiandae quos, vitae harum voluptas aut!
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
-        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
-        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
-        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
-        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
-        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
-        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
-        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
-        eos provident exercitationem autem molestias odio cupiditate
-        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
-        repudiandae quos, vitae harum voluptas aut!
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
-        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
-        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
-        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
-        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
-        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
-        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
-        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
-        eos provident exercitationem autem molestias odio cupiditate
-        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
-        repudiandae quos, vitae harum voluptas aut!
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
-        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
-        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
-        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
-        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
-        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
-        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
-        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
-        eos provident exercitationem autem molestias odio cupiditate
-        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
-        repudiandae quos, vitae harum voluptas aut!
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
-        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
-        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
-        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
-        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
-        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
-        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
-        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
-        eos provident exercitationem autem molestias odio cupiditate
-        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
-        repudiandae quos, vitae harum voluptas aut!
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
-        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
-        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
-        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
-        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
-        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
-        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
-        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
-        eos provident exercitationem autem molestias odio cupiditate
-        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
-        repudiandae quos, vitae harum voluptas aut!
-      </p>{" "}
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
-        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
-        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
-        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
-        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
-        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
-        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
-        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
-        eos provident exercitationem autem molestias odio cupiditate
-        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
-        repudiandae quos, vitae harum voluptas aut!
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
-        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
-        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
-        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
-        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
-        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
-        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
-        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
-        eos provident exercitationem autem molestias odio cupiditate
-        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
-        repudiandae quos, vitae harum voluptas aut!
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro veniam
-        ab, cum quae delectus nobis dolorum, omnis error unde sunt labore ullam
-        soluta neque. Consequuntur a quos, labore ex iusto error harum ratione
-        quisquam illo? Quo consequatur perferendis vitae minus minima fuga fugit
-        blanditiis beatae ullam nesciunt accusamus eaque, nostrum nemo aut
-        officia iure reiciendis omnis aliquam, ab labore corrupti est? Nulla
-        cumque iure fugiat tenetur illo inventore exercitationem quod ipsam
-        perspiciatis? Exercitationem, vero maiores. Pariatur tenetur, fuga porro
-        eos provident exercitationem autem molestias odio cupiditate
-        perspiciatis adipisci quidem ad nostrum? Aliquid dignissimos placeat
-        repudiandae quos, vitae harum voluptas aut!
-      </p>
+      
+<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+  <p>
+    <label>Email: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <div data-netlify-recaptcha="true"></div>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
     </Layout>
   )
 }
