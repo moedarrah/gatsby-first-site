@@ -52,21 +52,21 @@ export default function Contact() {
         <label>
           Name:
           <br />
-          <input type="text" name="name" onChange={handleChange} />
+          <input type="text" name="name" onChange={handleChange} required/>
         </label>
       </p>
       <p>
         <label>
           Email:
           <br />
-          <input type="email" name="email" onChange={handleChange} />
+          <input type="email" name="email" onChange={handleChange} required/>
         </label>
       </p>
       <p>
         <label>
           Message:
           <br />
-          <textarea name="message" onChange={handleChange} />
+          <textarea name="message" onChange={handleChange} required/>
         </label>
       </p>
       
