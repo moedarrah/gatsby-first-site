@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import HChart from "./HChart"
-import CssChart from "./CssChart"
-import JsChart from "./JsChart"
-import ReChart from "./ReChart"
+import Hchart from "./Hchart"
+import Csschart from "./Csschart"
+import Jschart from "./Jschart"
+import Rechart from "./Rechart"
 
 
 export default class Chart extends Component {
@@ -62,10 +62,10 @@ export default class Chart extends Component {
     return (
       // <div className="chart-container">
       <ul className="chart">
-        <li><HChart chartData={this.state.chartDataHtml} legendPosition="bottom" /></li> 
-        <li><CssChart chartData={this.state.chartDataCss} legendPosition="bottom" /></li> 
-        <li><JsChart chartData={this.state.chartDataJs} legendPosition="bottom" /></li> 
-        <li><ReChart chartData={this.state.chartDataRe} legendPosition="bottom" /></li> 
+        <li><Hchart chartData={this.state.chartDataHtml} legendPosition="bottom" /></li> 
+        <li><Csschart chartData={this.state.chartDataCss} legendPosition="bottom" /></li> 
+        <li><Jschart chartData={this.state.chartDataJs} legendPosition="bottom" /></li> 
+        <li><Rechart chartData={this.state.chartDataRe} legendPosition="bottom" /></li> 
       </ul>
       // </div>
     )

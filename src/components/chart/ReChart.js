@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Pie} from 'react-chartjs-2';
 
 
-class ReChart extends Component{
+class Rechart extends Component{
   constructor(props){
     super(props);
     this.state = {
@@ -39,4 +39,4 @@ class ReChart extends Component{
   }
 }
 
-export default ReChart;
+export default Rechart;
