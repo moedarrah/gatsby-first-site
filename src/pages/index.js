@@ -10,7 +10,7 @@ import {
   faQuestion
 } from "@fortawesome/free-solid-svg-icons"
 import { faHeart } from "@fortawesome/free-regular-svg-icons"
-import Chart from "../components/Chart.js/index.js"
+import Chart from "../components/Chart"
 
 var ReactRotatingText = require("react-rotating-text")
 
