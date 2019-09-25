@@ -81,7 +81,7 @@ const myIndex = () => {
           <p className="about-p">
             Finding the problem and trying to fix it in a smart way has always
             been my passion. I have a bachelor's degree in interior architect
-            and I had worked in this field in my home town Syria and in Sweden.
+            and I had worked in this field in my home town Syria and Sweden.
             Right now i am studying Front-End development at ,
             <span> Nackademin Stockholm.</span>
           </p>
