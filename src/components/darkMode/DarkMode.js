@@ -7,12 +7,9 @@ import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
 
 
 const DarkMode = props => {
-
+ 
   const [darkMode, setDarkMode] = React.useState(getInitialMode());
-  React.useEffect(() => {
-    localStorage.setItem("dark", JSON.stringify(darkMode));
-  }, [darkMode]);
-
+  
   function getInitialMode() {
     const isReturningUser = "dark" in localStorage;
     const savedMode = JSON.parse(localStorage.getItem("dark"));
@@ -29,7 +26,7 @@ const DarkMode = props => {
     }
     // return savedMode || false;
   }
-
+  
   function getPrefColorScheme() {
     if (!window.matchMedia) return;
 
