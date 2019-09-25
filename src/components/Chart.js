@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import Hchart from "./hchart.js"
-import Csschart from "./csschart.js"
-import Jschart from "./jschart.js"
-import Rechart from "./rechart.js"
+import Hchart from "./chart/hchart.js"
+import Csschart from "./chart/csschart.js"
+import Jschart from "./chart/jschart.js"
+import Rechart from "./chart/rechart.js"
 
 
 export default class Chart extends Component {
