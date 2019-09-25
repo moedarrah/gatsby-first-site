@@ -83,8 +83,32 @@ main {
   .about-p1 {
     color: $font-large-light;
   }
-  .toolbar__navigation{
+  .toolbar__navigation {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  }
+  .form {
+    input {
+      background: $background-dark;
+    }
+    textarea {
+      background: $background-dark;
+    }
+
+    button {
+      background: $red;
+      color: $font-large-light;
+    }
+  }
+  footer {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    a{
+      color: $font-large-light;
+    }
+    p{
+
+      color: $font-large-light;
+    }
   }
 }
 
@@ -143,8 +167,32 @@ main {
   .about-p1 {
     color: $font-large-dark;
   }
-  .toolbar__navigation{
+  .toolbar__navigation {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+  .form {
+    input {
+      background: $background-light;
+    }
+    textarea {
+      background: $background-light;
+    }
+
+    button {
+      background: $red;
+      color: $font-large-dark;
+    }
+  }
+  footer {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    a{
+      color: $font-large-dark;
+    }
+    p{
+
+      color: $font-large-dark;
+    }
   }
 }
 
@@ -272,12 +320,6 @@ input[type="checkbox"].checkbox + label {
   }
 }
 
-
-footer {
-  margin-top: 100px;
-  text-align: center;
-}
-
 .about-h1 {
   margin-top: 100px;
   text-align: center;
@@ -308,26 +350,26 @@ footer {
   color: $red;
   margin-top: 20px;
 }
-.about-list{
+.about-list {
   display: flex;
   list-style: none;
   margin: 0 auto;
   width: 70%;
   justify-content: space-around;
-  
+
   li {
     display: flex;
-  flex-direction: column;
-  align-items: center;
-  // width: 300px;
-  // max-height: 300px;
+    flex-direction: column;
+    align-items: center;
+    // width: 300px;
+    // max-height: 300px;
   }
 }
 .about-p {
   width: 90%;
   text-align: left;
   min-height: 100%;
- 
+
   // margin: 0 40px;
   // margin-top: 100px;
   // margin-right: 100px;
@@ -336,16 +378,15 @@ footer {
   width: 100%;
   text-align: right;
   min-height: 100%;
- 
+
   // margin: 0 40px;
   // margin-top: 100px;
   // font-size: 2rem;
   // margin-left: 100px;
 }
-span{
+span {
   color: $red;
 }
-
 
 // .about-container {
 //   display: flex;
@@ -363,107 +404,144 @@ span{
 
   li {
     display: flex;
-  flex-direction: column;
-  align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
-
-iframe{
+iframe {
   display: block;
   width: 80%;
   height: 70vh;
   border-radius: 30px;
   margin: 0 auto;
-  
+}
+.project-p {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
 
-  
+.hero-thanks {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../../image/hero-image.jpg");
+
+  .thanks-text-dark {
+    color: $font-large-dark;
+    padding-top: 20px;
+  }
+
+  .thanks-text-red {
+    color: $red;
+  }
+  .back-link {
+    padding: 20px 0;
+    a {
+      text-decoration: none;
+      color: $font-large-dark;
+    }
+  }
+}
+
+.thanks-container {
+  position: relative;
+  top: 200px;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border: $red solid 1px;
+  border-radius: 20px;
+  text-align: center;
+  background: #0d0d0c;
+}
+
+.form-head {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  input {
+    justify-items: center;
+    border: none;
+    height: 30px;
+    width: 600px;
+    margin-bottom: 5px;
+    font-family: "Orbitron", sans-serif;
+    border-radius: 5px;
+  }
+  textarea {
+    justify-items: center;
+    border: none;
+    height: 30px;
+    width: 600px;
+    margin-bottom: 5px;
+    font-family: "Orbitron", sans-serif;
+    border-radius: 5px;
+  }
+
+  button {
+    justify-items: center;
+    border: none;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 5px;
+    background: $red;
+    border-radius: 5px;
+    font-family: "Orbitron", sans-serif;
+  }
+}
+footer {
+  margin-top: 300px;
+  text-align: center;
+  p{
+    padding: 20px 0;
+  }
   
 }
-    .project-p{
-      display: block;
-      width: 80%;
-      margin: 0 auto;
-      text-align: center;
-      margin-top: 80px;
-      margin-bottom: 30px;
+
+.footer-lista {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: space-around;
+  margin-top: 100px;
+  font-size: 2rem;
+  padding-top: 40px;
+
+  li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a{
+      text-decoration: none;
+
+      &:hover{
+        color:#D92938; 
+        
+        
+     }
+    &:active{
+        color: dimgray;
+        
+     }
     }
-
-    .hero-thanks {
-      height: 100vh;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url("../../image/hero-image.jpg");
-
-        .thanks-text-dark{
-          color: $font-large-dark;
-          padding-top: 20px;
-        }
-         
-
-        .thanks-text-red{
-          color: $red;
-        }
-        .back-link{
-          padding: 20px 0;
-          a{
-            
-            text-decoration: none;
-            color: $font-large-dark;
-            
-          }
-        }
-    }
-
-    .thanks-container{
-      position: relative;
-      top: 200px;
-      display: block;
-      margin: 0 auto;
-      width: 50%;
-      border: $red solid 1px;
-      border-radius: 20px;
-      text-align: center;
-      background: #0d0d0c;
-    }
-
-    .form{
-      display: flex;
-      width: 100%;
-      justify-content: center;
-      margin-top: 100px;
-
-      input {
-        justify-items: center;
-        border: none;
-        height: 30px;
-        width: 600px;
-        margin-bottom: 5px; 
-      }
-      textarea{
-        justify-items: center;
-        border: none;
-        height: 30px;
-        width: 600px;
-        margin-bottom: 5px; 
-      }
-
-      button{
-        justify-items: center;
-        border: none;
-        height: 30px;
-        width: 600px;
-        margin-bottom: 5px;
-      }
-
-
-    }
-
     
-
-
-
-
+  }
+}

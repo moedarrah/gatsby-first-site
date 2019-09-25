@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    framework: `Gatsby`,
+    framework: `Gatsby-js`,
     author: `Mohammed Darrah`,
     title:`Front-end Developer`
   },

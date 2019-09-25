@@ -48,7 +48,7 @@ export default function Contact() {
               name="name"
               onChange={handleChange}
               required
-              placeholder="Name.."
+              placeholder=" Name.."
             />
           </label>
         </p>
@@ -61,7 +61,7 @@ export default function Contact() {
               name="email"
               onChange={handleChange}
               required
-              placeholder="Email.."
+              placeholder=" Email.."
             />
           </label>
         </p>
@@ -70,7 +70,7 @@ export default function Contact() {
             <input
               name="bot-field"
               onChange={handleChange}
-              placeholder="Don't fill this out if your a human.."
+              placeholder=" Don't fill this out if your a human.."
             />
           </label>
         </p>
@@ -81,7 +81,7 @@ export default function Contact() {
               name="message"
               onChange={handleChange}
               required
-              placeholder="Message:"
+              placeholder=" Message.."
             />
           </label>
         </p>
