@@ -126,16 +126,16 @@ const myIndex = () => {
       <h1 className="about-h1" id="contact">
         Contact
       </h1>
-      
-<form method="POST" data-netlify="true">
+     
+<form method="POST" data-netlify="true" name="contact">
   <p>
-    <label>Name: <input type="hidden" name="form-name" value="name-of-form"/></label>
+    <label>Name: <input type="hidden" name="form-name" value="contact"/></label>
   </p>
   <p>
-    <label>Email: <input type="hidden" name="form-email" value="email-of-form"/></label>
+    <label>Email: <input type="hidden" name="form-email" value="contact"/></label>
   </p>
   <p>
-    <label>Message: <textarea type="hidden" name="form-message" ></textarea></label>
+    <label>Message: <textarea type="hidden" name="contact" ></textarea></label>
   </p>
   <div data-netlify-recaptcha="true"></div>
   <p>
