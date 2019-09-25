@@ -1,9 +1,20 @@
 import React from 'react'
-import Layout from '../components/layout'
+
+
+
+
+
 
 export default () => (
-  <Layout>
-    <h1>Thank you!</h1>
-    <p>This is a custom thank you page for form submissions</p>
-  </Layout>
+  <div>
+  <div className="hero-image2">
+  <div className="hero-text3">
+    <h1>Thank you for your message</h1>
+  </div>
+  <span className="hero-text4">
+    <h2>I will contact you as soon as possible.</h2>
+  </span>
+  <div><a href="../">Go back to homepage</a></div>
+</div>
+  </div>
 )
