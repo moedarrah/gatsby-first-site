@@ -29,9 +29,6 @@ const navbar = props => {
             <li>
               <Link to="/contact" activeClassName="active">Contact</Link>
             </li>
-            <li>
-              <Link to="/about" activeClassName="active">About</Link>
-            </li>
           </ul>
         </div> 
       </nav>

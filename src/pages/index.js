@@ -7,6 +7,7 @@ import {
   faFighterJet,
   faMobileAlt,
   faRulerCombined,
+  faQuestion
 } from "@fortawesome/free-solid-svg-icons"
 import { faHeart } from "@fortawesome/free-regular-svg-icons"
 import Chart from "../components/Chart/Chart.js"
@@ -80,7 +81,8 @@ const myIndex = () => {
         </li>
         
       </ul>
-      <h1 className="about-h1">My Knowledge</h1>    
+      <h1 className="about-h1">So...Where Am I<FontAwesomeIcon icon={faQuestion} /></h1>   
+     
       <Chart />
     </Layout>
   )
