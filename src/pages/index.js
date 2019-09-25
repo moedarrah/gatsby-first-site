@@ -20,13 +20,13 @@ const myIndex = () => {
       <div className="hero-image" id="home">
         <div className="hero-text1">
           <h1>
-            Mohammed Darrah a{" "}
+            Mohammed Darrah {" "}
             <ReactRotatingText
               items={[
-                "{Designer}",
-                "{Developer}",
+                "a {Designer}",
+                "a {Developer}",
                 "{&}",
-                "{Interior Architect}",
+                "an {Interior Architect}",
               ]}
             />
           </h1>
