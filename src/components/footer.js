@@ -29,7 +29,7 @@ const Footer = () => {
         <li><a href="https://goo.gl/maps/9fkTzi9AbPD8b55M8" target="_blank"><FontAwesomeIcon icon={faMapMarkerAlt} /></a></li>
         <li><a href="https://twitter.com/mmdarrah" target="_blank"><FontAwesomeIcon icon={faTwitterSquare} /></a></li>
         </ul>
-            <p>Created By {data.site.siteMetadata.author} with {data.site.siteMetadata.framework}. © 2019</p>
+            <p>Created By {data.site.siteMetadata.author} with <span>{data.site.siteMetadata.framework}.</span> © 2019</p>
         </footer>
     )
 }
