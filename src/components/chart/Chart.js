@@ -1,7 +1,8 @@
 import React, { Component } from "react"
-import HtmlChart from "./HtmlChart"
+import HChart from "./HChart"
 import CssChart from "./CssChart"
 import JsChart from "./JsChart"
+import ReChart from "./ReChart"
 
 
 export default class Chart extends Component {
@@ -19,55 +20,54 @@ export default class Chart extends Component {
   getChartData() {
     this.setState({
       chartDataHtml: {
-        labels: ["HTML","Need"],
+        labels: ["HTML"],
         datasets: [
           {
             data: [70, 30],
-            backgroundColor: ["#F25D27", "#F2F2F2"],
+            backgroundColor: ["#D92938"],
           },
         ],
       },
       chartDataCss: {
-        labels: ["CSS","Need"],
+        labels: ["CSS"],
         datasets: [
           {
             data: [40, 60],
-            backgroundColor: ["#2E6FF2", "#F2F2F2"],
+            backgroundColor: ["#D92938"],
           },
         ],
       },
       chartDataJs: {
-        labels: ["Javascript","Need"],
+        labels: ["Javascript"],
         datasets: [
           {
             data: [55, 45],
-            backgroundColor: ["#F2D852", "#F2F2F2"],
+            backgroundColor: ["#D92938"],
           },
         ],
       },
-      chartDataPersonal: {
-        labels: ['Gaming', 'TV', 'Walking', 'Cycling',"Running"],
+      chartDataRe: {
+        labels: ["React"],
         datasets: [
           {
-            data: [70, 90, 60, 45,10],
-            pointBackgroundColor: [],
-            backgroundColor: ["#F2D852"],
-            
+            data: [20, 80],
+            backgroundColor: ["#D92938"],
           },
-          
         ],
       },
+     
     })
   }
   render() {
     return (
-      <div className="chart">
-        <HtmlChart chartData={this.state.chartDataHtml} legendPosition="bottom" />
-        <CssChart chartData={this.state.chartDataCss} legendPosition="bottom" />
-        <JsChart chartData={this.state.chartDataJs} legendPosition="bottom" />
-        
-      </div>
-      
+      // <div className="chart-container">
+      <ul className="chart">
+        <li><HChart chartData={this.state.chartDataHtml} legendPosition="bottom" /></li> 
+        <li><CssChart chartData={this.state.chartDataCss} legendPosition="bottom" /></li> 
+        <li><JsChart chartData={this.state.chartDataJs} legendPosition="bottom" /></li> 
+        <li><ReChart chartData={this.state.chartDataRe} legendPosition="bottom" /></li> 
+      </ul>
+      // </div>
     )
   }
 }

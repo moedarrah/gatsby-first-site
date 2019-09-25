@@ -15,19 +15,22 @@ const navbar = props => {
         <DrawerToggleButton click={props.drawerClickHandler} />
         </div>
         <div className="toolbar__logo">
-          <Link to="/">FrontEndare</Link>
+          <Link to="/">Front<span className="logoSpan" >E</span>ndare</Link>
         </div>
         <div className="spacer" />
         <div className="toolbar_navigation-items">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" activeClassName="active">Home</Link>
             </li>
             <li>
-              <Link to="/blog">Projects</Link>
+              <Link to="/blog" activeClassName="active">Projects</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" activeClassName="active">Contact</Link>
+            </li>
+            <li>
+              <Link to="/about" activeClassName="active">About</Link>
             </li>
           </ul>
         </div> 

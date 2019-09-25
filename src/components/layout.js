@@ -5,6 +5,7 @@ import Backdrop from "../components/Backdrop/Backdrop"
 import "../styles/index.scss"
 import "../components/darkMode/DarkMode.scss"
 import DarkMode from "../components/darkMode/DarkMode"
+import Footer from "./footer"
 
 
 
@@ -45,6 +46,7 @@ class Layout extends Component {
         {backdrop}
       </div>
       {this.props.children}
+      <Footer/>
       </DarkMode>
       
     )

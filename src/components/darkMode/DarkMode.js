@@ -37,11 +37,10 @@ const DarkMode = props => {
   }
 
   return(
-        <div className={darkMode ? "dark-mode" : "light-mode"}>
         
-      
+        <main className={darkMode ? "dark-mode" : "light-mode"}>
         <div className="toggle-container">
-          <span style={{ color: darkMode ? "grey" : "yellow" }}><FontAwesomeIcon icon={faSun} /></span>
+          <span style={{ color: darkMode ? "grey" : "" }}><FontAwesomeIcon icon={faSun} /></span>
           <span className="toggle">
             <input
               checked={darkMode}
@@ -52,16 +51,13 @@ const DarkMode = props => {
             />
             <label htmlFor="checkbox" />
           </span>
-          <span style={{ color: darkMode ? "slateblue" : "grey" }}><FontAwesomeIcon icon={faMoon} /></span>
+          <span style={{ color: darkMode ? "" : "grey" }}><FontAwesomeIcon icon={faMoon} /></span>
         </div>
       
-      <main className={darkMode ? "dark-mode" : "light-mode"}>
-        
         {props.children}
-        
          
       </main>
-    </div>
+    
   )
 }
   

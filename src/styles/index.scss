@@ -1,10 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
-$red : #DB4549;
-$background: #DBDCD6;
-$primary:#2E3853;
-$secondary:#3E6A91;
-$light:#A3C9D3;
+
+
+/* Dark mode colors */
+$background-dark: #0D0D0C;
+$font-large-dark: #E4EAF2;
+$font-small-dark:#4F6C73;
+
+/* Light mode colors */
+$background-light: #E4EAF2;
+$font-large-light: #0D0D0C;
+$font-small-light: #4F6C73;
+
+$red: #D92938;
 
 
 
@@ -19,66 +27,17 @@ body{
   margin:0;
   padding: 0;
   height: 100%;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Orbitron', sans-serif;
  
 }
 
-main {
-  padding: 0.5em;
-  margin: 0 auto;
-  max-width: 90%;
-  font-size: 1.2rem;
-  line-height: 1.1;
-  height: 100vh;
-}
 
 
-// .hero-div{
-//   position: absolute;
-//   display: inline-block;
-//   background: pink;
-//   width: 90vh;
-//   height: 90vh;
-//   // left: 77%;
-  
-//   // animation-name: myframes;
-//   animation-duration: 6000ms;
-//   animation-timing-function: ease;
-//   animation-delay: 0s;
-//   animation-iteration-count: 1;
-//   animation-direction: inherit;
-//   animation-fill-mode: forwards;
-//   transition: transform 1000ms cubic-bezier(1, 0, 0, 1) 0ms, padding 500ms cubic-bezier(1, 0, 0, 1) 0ms;
-   
-  
- 
-// }
 
 
-// @keyframes myframes{
 
-//   0%{
 
-//     height: 0%;
-//     width:  20%;
-//   }
 
-//   30%{
 
-//     height: 80%;
-//     width:  40%;
-
-//   }
-//   60%{
-
-//     height: 80%;
-//     width:  80%;
-//   }
-//   100%{
-
-//     height: 80%;
-//     width:  45%;
-//   }
-// }
 
 

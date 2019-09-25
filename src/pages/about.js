@@ -10,10 +10,51 @@ class about extends Component {
   render() {
     return (
       <Layout>
-        <h1 className="projects">My knowledge</h1>
-        <Chart/>
-        <h1 className="personal">My personal interest</h1>
-        <Radar/>
+      
+      <div className="chart-container">
+      <Chart/>
+      </div>
+
+      <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore totam
+      voluptatem voluptates ad architecto, obcaecati aliquam impedit illum!
+      Perferendis distinctio dolor libero delectus quae sequi optio, obcaecati
+      est, quibusdam incidunt in quisquam unde non illum nulla rerum porro
+      totam veniam error perspiciatis et praesentium, odit laudantium. Quod
+      animi fugiat beatae!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore totam
+      voluptatem voluptates ad architecto, obcaecati aliquam impedit illum!
+      Perferendis distinctio dolor libero delectus quae sequi optio, obcaecati
+      est, quibusdam incidunt in quisquam unde non illum nulla rerum porro
+      totam veniam error perspiciatis et praesentium, odit laudantium. Quod
+      animi fugiat beatae!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore totam
+      voluptatem voluptates ad architecto, obcaecati aliquam impedit illum!
+      Perferendis distinctio dolor libero delectus quae sequi optio, obcaecati
+      est, quibusdam incidunt in quisquam unde non illum nulla rerum porro
+      totam veniam error perspiciatis et praesentium, odit laudantium. Quod
+      animi fugiat beatae!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore totam
+      voluptatem voluptates ad architecto, obcaecati aliquam impedit illum!
+      Perferendis distinctio dolor libero delectus quae sequi optio, obcaecati
+      est, quibusdam incidunt in quisquam unde non illum nulla rerum porro
+      totam veniam error perspiciatis et praesentium, odit laudantium. Quod
+      animi fugiat beatae!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore totam
+      voluptatem voluptates ad architecto, obcaecati aliquam impedit illum!
+      Perferendis distinctio dolor libero delectus quae sequi optio, obcaecati
+      est, quibusdam incidunt in quisquam unde non illum nulla rerum porro
+      totam veniam error perspiciatis et praesentium, odit laudantium. Quod
+      animi fugiat beatae!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore totam
+      voluptatem voluptates ad architecto, obcaecati aliquam impedit illum!
+      Perferendis distinctio dolor libero delectus quae sequi optio, obcaecati
+      est, quibusdam incidunt in quisquam unde non illum nulla rerum porro
+      totam veniam error perspiciatis et praesentium, odit laudantium. Quod
+      animi fugiat beatae!
+    </p>
       </Layout>
     );
   }
