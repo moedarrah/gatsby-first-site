@@ -6,6 +6,7 @@ import "../styles/index.scss"
 import "../components/darkMode/DarkMode.scss"
 import DarkMode from "../components/darkMode/DarkMode"
 import Footer from "./footer"
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 
 
