@@ -89,14 +89,16 @@ main {
   .form {
     input {
       background: $background-dark;
+      color: $background-light;
     }
     textarea {
       background: $background-dark;
+      color: $background-light;
     }
 
     button {
       background: $red;
-      color: $font-large-light;
+      color: $font-large-dark;
     }
   }
   footer {
@@ -176,14 +178,16 @@ main {
   .form {
     input {
       background: $background-light;
+      color: $background-dark;
     }
     textarea {
       background: $background-light;
+      color: $background-dark;
     }
 
     button {
       background: $red;
-      color: $font-large-dark;
+      color: $background-dark;
     }
   }
   footer {
@@ -565,5 +569,68 @@ footer {
      }
     }
     
+  }
+}
+
+
+@media (max-width: 769px){
+  
+  .toggle-container{
+    
+      left: 0;
+  }
+
+  .toolbar__navigatio{
+    width: 0;
+  }
+
+  .callMe{
+    left: 30%;
+    top:90%;
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+  }
+
+  .hero-text1{
+    display: block;
+    font-size: 0.5rem;
+    top: 77%;
+  }
+  .hero-text2{
+    font-size: 0.8rem;
+    top: 80%;
+  }
+
+
+  .icons-ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-list{
+    display: flex;
+    flex-direction: column;
+    width: 90%; 
+  }
+  .about-p1{
+    text-align: left;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .about-p{
+    text-align: left;
+    width: 90%;
+  }
+
+  .chart {
+    display: flex;
+    flex-direction: column;
+  }
+  .form input{
+    width: 300px;
+  }
+  .form textarea{
+    width: 300px;
   }
 }
