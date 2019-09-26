@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Pie} from 'react-chartjs-2';
 
 
-class Hchart extends Component{
+class mychart extends Component{
   constructor(props){
     super(props);
     this.state = {
@@ -38,4 +38,4 @@ class Hchart extends Component{
   }
 }
 
-export default Hchart;
+export default mychart;

@@ -17,6 +17,7 @@ import Seo from "../components/SEO"
 var ReactRotatingText = require("react-rotating-text")
 
 const myIndex = () => {
+  
   return (
     
     <Layout>
@@ -53,7 +54,7 @@ const myIndex = () => {
         <li className="icons-li">
           <div className="icon">
             <FontAwesomeIcon icon={faFighterJet} />
-          </div>
+            </div>
           <div className="icon-head">Fast loading</div>
         </li>
         <li className="icons-li">
