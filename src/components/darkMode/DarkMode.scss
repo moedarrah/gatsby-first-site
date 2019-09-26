@@ -342,7 +342,7 @@ input[type="checkbox"].checkbox + label {
   
 }
 .projects {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
   
@@ -575,6 +575,10 @@ footer {
 
 @media (max-width: 769px){
   
+  .hero-image{
+    background-position: 20%;
+    background-image: url("../../image/hero-image-mobile.jpg");
+  }
   .toggle-container{
     
       left: 0;
@@ -606,6 +610,11 @@ footer {
   .icons-ul{
     display: flex;
     flex-direction: column;
+    li{
+      margin-bottom: 40px;
+      width: 100%;
+    }
+    
   }
 
   .about-list{
@@ -622,10 +631,19 @@ footer {
     text-align: left;
     width: 90%;
   }
+  .whereAm{
+    margin: 100px 0;
+  }
 
   .chart {
     display: flex;
     flex-direction: column;
+    li{
+      margin-bottom: 40px;
+    }
+  }
+  .projects{
+    margin-top: 100px;
   }
   .form input{
     width: 300px;

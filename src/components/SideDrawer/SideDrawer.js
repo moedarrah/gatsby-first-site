@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from "gatsby"
-
 import './SideDrawer.scss'
 
 const sideDrawer = props => {
@@ -12,14 +10,17 @@ const sideDrawer = props => {
     <nav className={drawerClasses}>
     <ul>
     <li>
-      <Link to="/">Home</Link>
-    </li>
-    <li>
-      <Link to="/blog">Projects</Link>
-    </li>
-    <li>
-      <Link to="/contact">Contact</Link>
-    </li>
+              <a href="#home" activeclassname="active">Home</a>
+            </li>
+            <li>
+              <a href="#about" activeclassname="active">About</a>
+            </li>
+            <li>
+              <a  href="#projects" activeclassname="active">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" activeclassname="active">Contact</a>
+            </li>
   </ul>
     </nav>
   )

@@ -41,7 +41,8 @@ const myIndex = () => {
           Contact me <FontAwesomeIcon icon={faPhone} />
         </a>
       </div>
-      <h1 className="about-h1" id="about">
+      <div id="about"></div>
+      <h1 className="about-h1">
         My Main Focus
       </h1>
       <ul className="icons-ul">
@@ -91,7 +92,8 @@ const myIndex = () => {
         So...Where Am I<FontAwesomeIcon icon={faQuestion} />
       </h1>
       <Chart />
-      <h1 className="projects" id="projects">
+      <div id="projects"></div>
+      <h1 className="projects">
         Projects
       </h1>
       <ul className="iframes">
@@ -124,7 +126,8 @@ const myIndex = () => {
           ></iframe>
         </li>
       </ul>
-      <h1 className="about-h1" id="contact">
+      <div id="contact"></div>
+      <h1 className="about-h1">
         Contact
       </h1>
       <h3 className="form-head">Have a question or want to work together?</h3>
