@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     framework: `Gatsby-js`,
     author: `Mohammed Darrah`,
-    title:`FrontEndare.se`,
+    title:`FrontEndare`,
     titleTemplate: "%s ",
     description:
     "frontend front-end frontendare nackademin developer utviklare",
