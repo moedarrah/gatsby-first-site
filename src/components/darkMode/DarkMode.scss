@@ -206,9 +206,6 @@ main {
   }
 }
 
-// .light-mode nav {
-//   transition: background-color 0.25s ease-out;
-// }
 
 // toggle for Dark mode
 
@@ -283,7 +280,7 @@ input[type="checkbox"].checkbox + label {
   position: fixed;
 }
 
-// Hero image in index.js
+
 
 /* The hero image */
 .hero-image {
@@ -389,8 +386,6 @@ input[type="checkbox"].checkbox + label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    // width: 300px;
-    // max-height: 300px;
   }
 }
 .about-p {
@@ -398,29 +393,16 @@ input[type="checkbox"].checkbox + label {
   text-align: left;
   min-height: 100%;
 
-  // margin: 0 40px;
-  // margin-top: 100px;
-  // margin-right: 100px;
 }
 .about-p1 {
   width: 100%;
   text-align: right;
   min-height: 100%;
-
-  // margin: 0 40px;
-  // margin-top: 100px;
-  // font-size: 2rem;
-  // margin-left: 100px;
 }
 span {
   color: $red;
 }
 
-// .about-container {
-//   display: flex;
-//   align-content: center;
-//   // width: 100vw;
-// }
 
 .chart {
   display: flex;
