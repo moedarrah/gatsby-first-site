@@ -3,6 +3,7 @@ module.exports = {
     framework: `Gatsby-js`,
     author: `Mohammed Darrah`,
     title:`frontendare`,
+    titleTemplate: "%s · The Real Hero",
     description:
     "frontend front-end frontendare nackademin developer utviklare",
     url: "https://www.frontendare.com",
