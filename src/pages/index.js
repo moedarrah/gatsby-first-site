@@ -127,7 +127,7 @@ const myIndex = () => {
         </li>
       </ul>
       <div id="contact"></div>
-      <h1 className="about-h1">
+      <h1 className="contact-h1">
         Contact
       </h1>
       <h3 className="form-head">Have a question or want to work together?</h3>
