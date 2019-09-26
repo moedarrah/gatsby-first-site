@@ -11,12 +11,16 @@ import {
 import { faHeart } from "@fortawesome/free-regular-svg-icons"
 import Chart from "../components/Chart"
 import Form from "../components/form"
+import Seo from "../components/SEO"
+
 
 var ReactRotatingText = require("react-rotating-text")
 
 const myIndex = () => {
   return (
+    
     <Layout>
+    <Seo/>
       <div className="hero-image" id="home">
         <div className="hero-text1">
           <h1>
@@ -133,6 +137,7 @@ const myIndex = () => {
       <h3 className="form-head">Have a question or want to work together?</h3>
       <Form />
     </Layout>
+    
   )
 }
 
