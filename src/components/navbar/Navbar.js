@@ -3,9 +3,6 @@ import "./Navbar.scss"
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton"
 
 
-
-
-
 const navbar = props => {
   return(
     <header>

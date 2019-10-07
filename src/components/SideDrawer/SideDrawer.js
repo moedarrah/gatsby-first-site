@@ -6,22 +6,24 @@ const sideDrawer = props => {
   if (props.show) {
     drawerClasses = 'side-drawer open';
   }
+  
+
   return (
     <nav className={drawerClasses}>
-    <ul>
-    <li>
-              <a href="#home" activeclassname="active">Home</a>
+      <ul>
+            <li>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#about" activeclassname="active">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a  href="#projects" activeclassname="active">Projects</a>
+              <a  href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#contact" activeclassname="active">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
-  </ul>
+      </ul>
     </nav>
   )
 }

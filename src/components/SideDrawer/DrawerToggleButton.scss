@@ -12,6 +12,7 @@ $red: #D92938;
     cursor: pointer;
     padding: 0;
     box-sizing: border-box;
+    margin-left: 10px;
     &:focus{
       outline: none;
     }
@@ -23,3 +24,5 @@ $red: #D92938;
     height: 2px;
     background: $red;
   }
+
+  

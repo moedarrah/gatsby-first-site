@@ -1,7 +1,8 @@
+$red: #d92938;
+
 .side-drawer{
     height: 100%;
     background: rgba(0,0,0,0.7);
-    // box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
     position: fixed;
     top: 0;
     left: 0;
@@ -21,28 +22,21 @@
 
     li{
         margin: 2rem auto;
-        
-        
+       
     }
 
     a{
-        color: red;
+        color: $red;
         text-decoration: none;
         font-size: 1.5rem;
         font-weight: bold;
-        &:hover{
-            color:red; 
-         }
-  
-         &:active{
-             color:green;
-         }
     }
 
 }
 
 .side-drawer.open{
-    transform: translateX(0)
+    transform: translateX(0);
+    
 }
 
 
