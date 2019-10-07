@@ -55,7 +55,6 @@ export default function Contact() {
 
         <p>
           <label>
-            
             <input
               type="email"
               name="email"

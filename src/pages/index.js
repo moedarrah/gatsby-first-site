@@ -106,7 +106,7 @@ const myIndex = () => {
           <p className="project-p">
             <span>Miss Green</span> is an eCommerce project using vanilla
             javascript and bootstrap the main focus is to use local storage.
-            <span><a href="https://mmdarrah.github.io/eCommerce/index.html" target="_blank"> Go to the project.</a></span>
+            <span><a href="https://mmdarrah.github.io/eCommerce/index.html" > Go to the project.</a></span>
           </p>
         </li>
         <li>
@@ -120,7 +120,7 @@ const myIndex = () => {
         <p className="project-p">
         <span>Hire A Hero</span> is a project using vanilla
         javascript and an external json file the main focus is to import the items from an external json file
-        <span><a href="https://mmdarrah.github.io/SuperHero4rent/" target="_blank"> Go to the project.</a></span>
+        <span><a href="https://mmdarrah.github.io/SuperHero4rent/" > Go to the project.</a></span>
       </p>
         </li>
         <li>

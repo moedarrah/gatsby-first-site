@@ -10,10 +10,6 @@ const DarkMode = props => {
  
   const [darkMode, setDarkMode] = React.useState(false);
   
-
-  
-  
-
   return(
         
         <main className={darkMode ? "dark-mode" : "light-mode"}>
@@ -33,7 +29,7 @@ const DarkMode = props => {
         </div>
       
         {props.children}
-         
+         -
       </main>
     
   )

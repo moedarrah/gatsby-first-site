@@ -17,7 +17,7 @@ const oldDark = props => {
     const isReturningUser = "dark" in localStorage;
     const savedMode = JSON.parse(localStorage.getItem("dark"));
     const userPrefersDark = getPrefColorScheme();
-    // if mode was saved --> dark / light
+    // if mode was saved --> dark / light --------------------------------------------------------------------------target="_blank"
     if (isReturningUser) {
       return savedMode;
       // if preferred color scheme is dark --> dark

@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Pie} from 'react-chartjs-2';
 
-
 class mychart extends Component{
   constructor(props){
     super(props);
@@ -9,17 +8,13 @@ class mychart extends Component{
       chartData:props.chartData
     }
   }
-
   static defaultProps = {
     displayTitle:false,
     displayLegend: true,
     legendPosition:'right',
   }
-
   render(){
     return (
-        
-      
         <Pie
           data={this.state.chartData}
           options={{
@@ -37,5 +32,4 @@ class mychart extends Component{
     )
   }
 }
-
 export default mychart;

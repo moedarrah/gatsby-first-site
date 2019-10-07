@@ -1,7 +1,6 @@
 import React, {Component} from "react"
 import Navbar from "../components/navbar/Navbar"
 import SideDrawer from "../components/SideDrawer/SideDrawer"
-import Backdrop from "../components/Backdrop/Backdrop"
 import "../styles/index.scss"
 import "../components/darkMode/DarkMode.scss"
 import DarkMode from "../components/darkMode/DarkMode"
@@ -29,22 +28,13 @@ class Layout extends Component {
   }
 
   render() {
-    let backdrop
-    
-    
-
-    if (this.state.sideDrawerOpen) {
-      backdrop = <Backdrop click={this.backdropClickHandler} />
-      
-    }
-
-    
+  
     return (
       <DarkMode>
       <div>
         <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
         <SideDrawer show={this.state.sideDrawerOpen}/>
-        {backdrop}
+        
       </div>
       {this.props.children}
       <Footer/>
