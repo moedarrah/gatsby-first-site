@@ -29,7 +29,7 @@ const DarkMode = props => {
         </div>
       
         {props.children}
-         -
+         
       </main>
     
   )
