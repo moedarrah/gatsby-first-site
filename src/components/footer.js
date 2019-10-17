@@ -23,11 +23,11 @@ const Footer = () => {
     return (
         <footer>
         <ul className="footer-lista">
-        <li><a href="https://linkedin.com/in/mohammed-darrah-3bb71b53" ><FontAwesomeIcon icon={faLinkedin} /></a></li>
-        <li><a href="https://github.com/mmdarrah?tab=repositories" ><FontAwesomeIcon icon={faGithubSquare} /></a></li>
-        <li><a href="mailto:mmdarrah@hotmail.com" ><FontAwesomeIcon icon={faAt} /></a></li>
-        <li><a href="https://goo.gl/maps/9fkTzi9AbPD8b55M8" ><FontAwesomeIcon icon={faMapMarkerAlt} /></a></li>
-        <li><a href="https://twitter.com/mmdarrah" ><FontAwesomeIcon icon={faTwitterSquare} /></a></li>
+        <li><a href="https://linkedin.com/in/mohammed-darrah-3bb71b53" aria-label="go to my linkedin profile"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+        <li><a href="https://github.com/mmdarrah?tab=repositories"  aria-label="go to my github profile"><FontAwesomeIcon icon={faGithubSquare} /></a></li>
+        <li><a href="mailto:mmdarrah@hotmail.com"  aria-label="send me an email"><FontAwesomeIcon icon={faAt} /></a></li>
+        <li><a href="https://goo.gl/maps/9fkTzi9AbPD8b55M8"  aria-label="my office adress on google map"><FontAwesomeIcon icon={faMapMarkerAlt} /></a></li>
+        <li><a href="https://twitter.com/mmdarrah"  aria-label="go to my twitter account"><FontAwesomeIcon icon={faTwitterSquare} /></a></li>
         </ul>
             <p>Created By {data.site.siteMetadata.author} with <span>{data.site.siteMetadata.framework}.</span> © 2019</p>
         </footer>

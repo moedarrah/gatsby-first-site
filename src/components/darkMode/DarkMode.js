@@ -53,7 +53,7 @@ const DarkMode = props => {
                 className="checkbox"
                 type="checkbox"
               />
-              <label htmlFor="checkbox" />
+              <label htmlFor="checkbox" aria-label="dark mode tagel"/>
             </span>
             <span style={{ color: darkMode ? "" : "grey" }}><FontAwesomeIcon icon={faMoon} /></span>
           </div>

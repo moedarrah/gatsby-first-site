@@ -12,6 +12,8 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons"
 import Chart from "../components/Chart"
 import Form from "../components/form"
 import Seo from "../components/SEO"
+import MissGreen from "../image/miss-green.png"
+import SuperHero from "../image/superhero.png"
 
 
 var ReactRotatingText = require("react-rotating-text")
@@ -110,11 +112,7 @@ const myIndex = () => {
           </p>
         </li>
         <li>
-          <iframe
-            src="https://mmdarrah.github.io/eCommerce/index.html"
-            frameBorder="0"
-            title="1"
-          ></iframe>
+          <img className="project-img" src={MissGreen} alt=""/>
         </li>
         <li>
         <p className="project-p">
@@ -124,11 +122,7 @@ const myIndex = () => {
       </p>
         </li>
         <li>
-          <iframe
-            src="https://mmdarrah.github.io/SuperHero4rent/"
-            frameBorder="0"
-            title="2"
-          ></iframe>
+        <img className="project-img" src={SuperHero} alt=""/>
         </li>
       </ul>
       <div id="contact"></div>
