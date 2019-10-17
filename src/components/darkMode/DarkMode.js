@@ -66,6 +66,18 @@ const DarkMode = props => {
       
     )
 }
+else{
+  return(
+          
+    <main >
+    
+  
+   
+     
+  </main>
+
+)
+}
 
   
 }
