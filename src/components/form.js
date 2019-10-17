@@ -42,7 +42,7 @@ export default function Contact() {
       >
         <input type="hidden" name="form-name" value="contact" />
         <p>
-          <label>
+          <label aria-label="name">
             <input
               type="text"
               name="name"
@@ -54,7 +54,7 @@ export default function Contact() {
         </p>
 
         <p>
-          <label>
+          <label aria-label="email">
             <input
               type="email"
               name="email"
@@ -65,7 +65,7 @@ export default function Contact() {
           </label>
         </p>
         <p>
-          <label>
+          <label aria-label="Don't fill this out if your a human..">
             <input
               name="bot-field"
               onChange={handleChange}
@@ -75,7 +75,7 @@ export default function Contact() {
         </p>
 
         <p>
-          <label>
+          <label aria-label="message">
             <textarea
               name="message"
               onChange={handleChange}
