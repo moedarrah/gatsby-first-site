@@ -11,7 +11,6 @@ const DarkMode = props => {
 
   if (typeof window !== 'undefined') {
    
-    
     const [darkMode, setDarkMode] = React.useState(getInitialMode());
     React.useEffect(() => {
       
@@ -19,7 +18,6 @@ const DarkMode = props => {
     }, [darkMode]);
   
     function getInitialMode() {
-  
       
       const isReturningUser = "dark" in localStorage;
       const savedMode = JSON.parse(localStorage.getItem("dark"));
@@ -69,7 +67,6 @@ const DarkMode = props => {
 else{
   return(
   <div></div>
-
 )
 }
 
