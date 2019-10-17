@@ -40,6 +40,7 @@
     "typography": "^0.16.19"
   },
   "devDependencies": {
+    "localstorage-polyfill": "^1.0.1",
     "prettier": "^1.18.2"
   },
   "repository": {
