@@ -12,8 +12,8 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons"
 import Chart from "../components/Chart"
 import Form from "../components/form"
 import Seo from "../components/SEO"
-import MissGreen from "../image/miss-green.png"
-import SuperHero from "../image/superhero.png"
+
+
 
 
 var ReactRotatingText = require("react-rotating-text")
@@ -112,7 +112,7 @@ const myIndex = () => {
           </p>
         </li>
         <li>
-          <img className="project-img" src={MissGreen} alt=""/>
+          <img className="project-img" src="https://github.com/mmdarrah/gatsby-first-site/blob/master/src/image/miss-green.PNG?raw=true" alt=""/>
         </li>
         <li>
         <p className="project-p">
@@ -122,7 +122,7 @@ const myIndex = () => {
       </p>
         </li>
         <li>
-        <img className="project-img" src={SuperHero} alt=""/>
+        <img className="project-img" src="https://github.com/mmdarrah/gatsby-first-site/blob/master/src/image/superhero.PNG?raw=true" alt=""/>
         </li>
       </ul>
       <div id="contact"></div>
