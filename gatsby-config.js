@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
     framework: `Gatsby-js`,
-    author: `Mohammed Darrah`,
-    title:`Mohammed Darrah`,
+    author: `Mo Darrah`,
+    title: `Mohammed Darrah`,
     titleTemplate: "%s ",
     description:
-    "My name is Mohammed Darrah and am a Front-end developer",
+      "My name is Mohammed Darrah and am a Front-end developer",
     url: "https://www.frontendare.com",
-    image: "/image/logo.png", 
+    image: "/image/logo.png",
     twitterUsername: "@mmdarrah",
 
   },
@@ -24,17 +24,17 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-      {
-        resolve: `gatsby-plugin-google-analytics`,
-        options: {
-          trackingId: "UA-146655581-1"
-        },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-146655581-1"
       },
-      {
-        resolve: 'gatsby-plugin-html-attributes',
-        options: {
-          lang: 'en'
-        }
+    },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
       }
+    }
   ],
 }

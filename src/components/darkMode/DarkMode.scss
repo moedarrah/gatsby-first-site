@@ -102,17 +102,15 @@ main {
     }
   }
   footer {
-    
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    a{
+    a {
       color: $font-large-light;
     }
-    p{
-
+    p {
       color: $font-large-light;
     }
   }
-  .project-p{
+  .project-p {
     color: $font-large-light;
   }
 }
@@ -191,21 +189,18 @@ main {
     }
   }
   footer {
-    
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    a{
+    a {
       color: $font-large-dark;
     }
-    p{
-
+    p {
       color: $font-large-dark;
     }
   }
-  .project-p{
+  .project-p {
     color: $font-large-dark;
   }
 }
-
 
 // toggle for Dark mode
 
@@ -280,8 +275,6 @@ input[type="checkbox"].checkbox + label {
   position: fixed;
 }
 
-
-
 /* The hero image */
 .hero-image {
   height: 100vh;
@@ -330,25 +323,22 @@ input[type="checkbox"].checkbox + label {
 .about-h1 {
   margin: 100px 0;
   text-align: center;
- 
+
   margin-bottom: 120px;
 }
 .contact-h1 {
   margin-top: 100px;
   margin-bottom: 50px;
   text-align: center;
-  
 }
 .whereAm {
   margin: 200px 0;
   text-align: center;
-  
 }
 .projects {
   margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
-  
 }
 
 .icons-ul {
@@ -392,7 +382,6 @@ input[type="checkbox"].checkbox + label {
   width: 90%;
   text-align: left;
   min-height: 100%;
-
 }
 .about-p1 {
   width: 100%;
@@ -402,7 +391,6 @@ input[type="checkbox"].checkbox + label {
 span {
   color: $red;
 }
-
 
 .chart {
   display: flex;
@@ -419,11 +407,9 @@ span {
   }
 }
 
-canvas{
-
-  width:200px !important;
-  height:120px !important;
-
+canvas {
+  width: 300px !important;
+  height: 150px !important;
 }
 
 /* iframe {
@@ -434,9 +420,9 @@ canvas{
   margin: 0 auto;
 } */
 
-.project-img{
+.project-img {
   display: block;
-  width:60%;
+  width: 60%;
   height: auto;
   border-radius: 20px;
   margin: 0 auto;
@@ -448,9 +434,9 @@ canvas{
   text-align: center;
   margin-top: 80px;
   margin-bottom: 30px;
-  a{
+  a {
     text-decoration: none;
-    color:$red;
+    color: $red;
   }
 }
 
@@ -537,10 +523,9 @@ canvas{
 footer {
   margin-top: 120px;
   text-align: center;
-  p{
+  p {
     padding: 20px 0;
   }
-  
 }
 
 .footer-lista {
@@ -553,133 +538,115 @@ footer {
   font-size: 2rem;
   padding-top: 20px;
 
-  li{
+  li {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    a{
+    a {
       text-decoration: none;
 
-      &:hover{
-        color:#D92938; 
-        
-        
-     }
-    &:active{
+      &:hover {
+        color: #d92938;
+      }
+      &:active {
         color: dimgray;
-        
-     }
+      }
     }
-    
   }
 }
-@media (max-width: 1100px){
-  .callMe{
+@media (max-width: 1100px) {
+  .callMe {
     left: 80%;
-    top:90%;
+    top: 90%;
     width: 150px;
     height: 50px;
     font-size: 1rem;
   }
-
-  
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .chart {
     display: flex;
     flex-direction: column;
-    li{
+    li {
       margin-bottom: 40px;
     }
   }
-  
 }
 
-
-
-@media (max-width: 769px){
-  
-  .hero-image{
+@media (max-width: 769px) {
+  .hero-image {
     background-position: 20%;
     background-image: url("../../image/hero-image-mobile.jpg");
   }
-  .toggle-container{
-    
-      left: 0;
+  .toggle-container {
+    left: 0;
   }
 
-  .toolbar__navigatio{
+  .toolbar__navigatio {
     width: 0;
   }
 
-  .callMe{
+  .callMe {
     left: 30%;
-    top:85%;
+    top: 85%;
     width: 150px;
     height: 50px;
     font-size: 1rem;
   }
 
-  .hero-text1{
+  .hero-text1 {
     display: block;
     font-size: 0.45rem;
     top: 77%;
   }
-  .hero-text2{
+  .hero-text2 {
     font-size: 0.8rem;
     top: 80%;
   }
 
-
-  .icons-ul{
+  .icons-ul {
     display: flex;
     flex-direction: column;
-    li{
+    li {
       margin-bottom: 40px;
       width: 100%;
     }
-    
   }
 
-  .about-list{
+  .about-list {
     display: flex;
     flex-direction: column;
-    width: 90%; 
+    width: 90%;
   }
-  .about-p1{
+  .about-p1 {
     text-align: left;
     width: 90%;
     margin-bottom: 10px;
   }
-  .about-p{
+  .about-p {
     text-align: left;
     width: 90%;
   }
-  .whereAm{
+  .whereAm {
     margin: 100px 0;
   }
 
   .chart {
     display: flex;
     flex-direction: column;
-    li{
+    li {
       margin-bottom: 40px;
     }
   }
-  .projects{
+  .projects {
     margin-top: 100px;
   }
-  .form input{
+  .form input {
     width: 300px;
   }
-  .form textarea{
+  .form textarea {
     width: 300px;
   }
 }
-
-
-
-
-

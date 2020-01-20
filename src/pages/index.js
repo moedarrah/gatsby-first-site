@@ -19,15 +19,15 @@ import Seo from "../components/SEO"
 var ReactRotatingText = require("react-rotating-text")
 
 const myIndex = () => {
-  
+
   return (
-    
+
     <Layout>
-    <Seo/>
+      <Seo />
       <div className="hero-image" id="home">
         <div className="hero-text1">
           <h1>
-            Mohammed Darrah {" "}
+            Mo Darrah {" "}
             <ReactRotatingText
               items={[
                 "a {Designer}",
@@ -56,7 +56,7 @@ const myIndex = () => {
         <li className="icons-li">
           <div className="icon">
             <FontAwesomeIcon icon={faFighterJet} />
-            </div>
+          </div>
           <div className="icon-head">Fast loading</div>
         </li>
         <li className="icons-li">
@@ -112,17 +112,17 @@ const myIndex = () => {
           </p>
         </li>
         <li>
-          <img className="project-img" src="https://github.com/mmdarrah/gatsby-first-site/blob/master/src/image/miss-green.PNG?raw=true" alt=""/>
+          <img className="project-img" src="https://github.com/mmdarrah/gatsby-first-site/blob/master/src/image/miss-green.PNG?raw=true" alt="" />
         </li>
         <li>
-        <p className="project-p">
-        <span>Hire A Hero</span> is a project using vanilla
-        javascript and an external json file the main focus is to import the items from an external json file
+          <p className="project-p">
+            <span>Hire A Hero</span> is a project using vanilla
+            javascript and an external json file the main focus is to import the items from an external json file
         <span><a href="https://mmdarrah.github.io/SuperHero4rent/" > Go to the project.</a></span>
-      </p>
+          </p>
         </li>
         <li>
-        <img className="project-img" src="https://github.com/mmdarrah/gatsby-first-site/blob/master/src/image/superhero.PNG?raw=true" alt=""/>
+          <img className="project-img" src="https://github.com/mmdarrah/gatsby-first-site/blob/master/src/image/superhero.PNG?raw=true" alt="" />
         </li>
       </ul>
       <div id="contact"></div>
@@ -132,7 +132,7 @@ const myIndex = () => {
       <h3 className="form-head">Have a question or want to work together?</h3>
       <Form />
     </Layout>
-    
+
   )
 }
 
