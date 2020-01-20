@@ -81,7 +81,7 @@ const myIndex = () => {
       <ul className="about-list">
         <li>
           <p className="about-p1">
-            Hi! My name is <span>Mohammed Darrah</span> and am a front-end
+            Hi! My name is <span>Mohammed Darrah</span> and i'm a front-end
             student at Nackademin. Please take a look around!
           </p>
         </li>
@@ -90,7 +90,7 @@ const myIndex = () => {
             Finding the problem and trying to fix it in a smart way has always
             been my passion. I have a bachelor's degree in interior architect
             and I had worked in this field in my home town Syria and Sweden.
-            Right now i am studying Front-End development at ,
+            Right now i am studying Front-End development at,
             <span> Nackademin Stockholm.</span>
           </p>
         </li>
