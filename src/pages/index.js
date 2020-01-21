@@ -27,7 +27,7 @@ const myIndex = () => {
       <div className="hero-image" id="home">
         <div className="hero-text1">
           <h1>
-            Mo Darrah {" "}
+            Mohammed Darrah {" "}
             <ReactRotatingText
               items={[
                 "a {Designer}",
